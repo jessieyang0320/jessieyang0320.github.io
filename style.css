@@ -32,6 +32,7 @@ p#imagelink {
 	font-family: comic sans MS, cursive;
 	font-size: 16px ;
 	font-weight:medium;
+	height: 500px;
 	text-align: left;
 	padding: 10px;
 	margin:10px;
@@ -48,6 +49,7 @@ p#imagelink {
 	font-size: 16px ;
 	font-weight: medium;
 	text-align: left;
+	height: 500px;
 	padding: 10px;
 	margin:10px;
 	border: 2px solid #e3f09b;
@@ -63,6 +65,7 @@ p#imagelink {
 	font-size: 16px;
 	font-weight: medium;
 	text-align: center;
+	height: 500px;
 	padding:10px ;
 	margin:10px;
 	border: 2px solid #87b6a7 ;
@@ -74,6 +77,10 @@ p#imagelink {
 
 }
 
+button.button{
+	margin:10px;
+	padding:5px;
+}
 .another-web{
 	font-family: courier, monospace;
 	font-size: 16px;
@@ -95,4 +102,11 @@ p#imagelink {
 #basics:visited {
 	text-decoration: none;
 	color:red;
+}
+
+footer {
+	padding:10px;
+	margin:15px;
+	text-align: center;
+	text-transform: capitalize;
 }
