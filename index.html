@@ -1,79 +1,256 @@
-
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<title>Rock Climbing </title>
-	</head>
+<html lang="en">
 
-<body>
-	<h1>Welcome to my page of Rock Climbing!!!</h1>
-<br>
+<head>
 
-<div>
-  <img class="climbing" src="rockcliming.png" alt="rockclimbing"> 
-  <p id="imagelink"><em>view origin image, <a id="basics" href="http://www.earthporm.com/insane-rock-climbing-photos-that-seem-to-defy-the-laws-of-nature/">click here </a> </em> </p>
-</div>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<div class="column1of3">
-	<h2>Rock Climbing Basics</h2>
-	<p> Climbing is both an individualistic and social sport: when you're on the rock you can only count on your skills to get to the top. If you do fall however, you'll have to trust your climbing partner with your life. Beyond question. No mistakes allowed. This often makes for very strong bonds and relationships.
-		<br>
-		<a id="basics" href="http://www.rockclimbing.com/Articles/Introduction_to_Climbing/Picking_up_climbing_-_Part_1_Introduction_Overview_1.html">Click here to learn more</a>
+    <title>Jessie Yang`s Website</title>
 
-	</p>
+    <!-- Bootstrap CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-</div>
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-<div class="column2of3">
-	<h2>Rock Climbing Gears</h2>
-	<p>If you are planning a climbing expedition, make sure your have the essential gear for the trip, we can offer you belay devices and descenders, carabiners, harnesses for adults and kids, helmets and other protection items, high strength and top quality climbing ropes, chalk bags, and various sized crash pads. We also have a wide selection of ice climbing gear available, if you need crampons and accessories, gaiters, ice axes and hammers, ice protection, ice climbing accessories, snow shoes, or avalanche safety guides, make sure to have a look at our Alpine &amp; Ice Climbing section.</p>
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-	<ul>
-		<li>Belay Devices</li>
-		<li>Climbing Shoes</li>
-		<li>Helmets</li>
-		<li>Climbing Ropes</li>
-		<p><a id="basics" href="http://www.rockclimbing.com/gear/">more...</a></p>
-	</ul>
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
 
-</div>
+</head>
 
-<form action="login.html">
-<div class="column3of3">
-	<h2>Log yourself in</h2>
-	<label><strong>Username:</strong></label>
-	<input type="text" name="username">
-	<br>
-	<label><strong>Password:</strong></label>
-	<input type="password", name="password">
-	<br>
-	<button class="button" type="submit"> log me in</button>
+<body id="page-top">
 
-	<p >what do you think of this website?</p>
-	<textarea name="comments" cols="30" rows="4">leave your comments here...</textarea>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Jessie Yang</a>
+            </div>
 
-</div>
-</form>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-<div class="another-web">
-    <h2>A website that has the same topic</h2>
-   Click <a id="basics" href="http://www.rockclimbing.com/gear/">Here</a>
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Hi, You are looking at Jessie Yang`s website</h1>
+                <hr>
+                <p>A Front-end developer and VR enthusiastic, always learning and always envolving</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header>
 
-   <p>This rockclimbing.com website has many tags that link to other page content ont the top, which makes it very organized and easy for the users to find what they are looking for. 
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                    <hr class="light">
+                    <p class="text-faded">My name is Jessie Yang. I am a full-stack developer based in New York City. I went to Bentley University and my background is in accounting. As a developer, I am now building fully functional dynamic web applications and it is really satisfying being able to put all the pieces together.
+                <br/>When I'm not working on a new app, you can catch me discovering new parts of the city, attending VR meet-ups or trying to find the best cup of coffee.</p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">See my skills!</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	When checking out the source, I recognized some HTML elements, like link, meta, head, title, and etc. one of the tag I don`t recognize is the script tag, I guess it is something that define what script is using to edit this website. 
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills and Portfolio</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+                        <h3>Powerful Frameworks</h3>
+                        <p class="text-muted">I work with agile frameworks such as Node.js, React, Angular, and Ruby on Rails.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                        <h3>Ready to go</h3>
+                        <p class="text-muted">I use Git/Github for version control and deploy and Heroku.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                        <h3>Secure Storage</h3>
+                        <p class="text-muted">I employ user authentication and maintain MongoDB, and PostgreSQL databases.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+                        <h3>UP to Date</h3>
+                        <p class="text-muted">I keep on my toes with cutting-edge languages such as JavaScript, HTML5, CSS3, ES6, and Ruby.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	</p>
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/portfolio/thumbnails/1.jpg" alt="...">
+                      <div class="caption">
+                        <h3>V-Hab</h3>
+                        <p>A VR game for hand rehabilitation</p>
+                        <p><a href="https://github.com/jessieyang0320/VHab" class="btn btn-primary" role="button">github</a> <a href="#" class="btn btn-default" role="button">live demo</a></p>
+                      </div>
+                    </div>
+                </div>
 
-	<p>According to the <a id="basics" href="http://www.w3schools.com/tags/tag_script.asp">definition</a> on W3Schools.com,<dfn>Script Element</dfn> either contains scripting statements, or it points to an external script file through the src attribute. Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.</p>
-</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/portfolio/thumbnails/1.jpg" alt="...">
+                      <div class="caption">
+                        <h3>News Republic</h3>
+                        <p>Node.js and React</p>
+                        <p><a href="#" class="btn btn-primary" role="button">github</a> <a href="#" class="btn btn-default" role="button">live demo</a></p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/portfolio/thumbnails/1.jpg" alt="...">
+                      <div class="caption">
+                        <h3>A P2P Company Website</h3>
+                        <p>A responsive designed website</p>
+                        <p><a href="#" class="btn btn-primary" role="button">github</a> <a href="#" class="btn btn-default" role="button">live demo</a></p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/portfolio/thumbnails/1.jpg" alt="...">
+                      <div class="caption">
+                        <h3>JavaScript 30 days</h3>
+                        <p>Vanilla JS 30 days challenge</p>
+                        <p><a href="#" class="btn btn-primary" role="button">github</a> <a href="#" class="btn btn-default" role="button">live demo</a></p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/portfolio/thumbnails/1.jpg" alt="...">
+                      <div class="caption">
+                        <h3>PHP</h3>
+                        <p>a PHP website</p>
+                        <p><a href="#" class="btn btn-primary" role="button">github</a> <a href="#" class="btn btn-default" role="button">live demo</a></p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="img/portfolio/thumbnails/1.jpg" alt="...">
+                      <div class="caption">
+                        <h3>Web App</h3>
+                        <p>Data Visualization</p>
+                        <p><a href="#" class="btn btn-primary" role="button">github</a> <a href="#" class="btn btn-default" role="button">live demo</a></p>
+                      </div>
+                    </div>
+                </div>
 
-<footer> this page is created by Jessie Yang, comments welcomed!</footer>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Find me on LinkedIn and checkout out my work on Github!</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 text-center">
+                     <a class="btn btn-warm btn-xl" href="https://www.linkedin.com/in/jessie-lijie-yang/" id="contact"><i class="fa fa-linkedin-square" id="linkein" aria-hidden="true"></i>LinkedIn</a>
+                    
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                     <a class="btn btn-warm btn-xl" href="https://github.com/jessieyang0320"><i class="fa fa-linkedin-square" id="linkein" aria-hidden="true"></i>GitHub</a>
+                    
+                </div>
+
+                <div class="col-lg-4 col-md-6 text-center">
+                     <a class="btn btn-warm btn-xl" href="#"><i class="fa fa-linkedin-square" id="linkein" aria-hidden="true"></i>Resume</a>
+
+                    
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+          <footer class="footer text-center">
+
+       <div class="container">
+        <p>Copyright &copy;2017 - Jessie Yang.  All rights reserved. </p>
+        
+      </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
 
 </body>
-
-
 
 </html>
